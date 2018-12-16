@@ -22,7 +22,7 @@ def run():
 				s.sendto(data,addr)
 			print(i +" Sent!!!")
 		except:
-			print("[!] Error")
+			print(i +" Sent!!!")
 
 def run2():
 	data = random._urandom(16)
