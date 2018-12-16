@@ -36,8 +36,10 @@ def run2():
 				s.send(data)
 			print(i +" Sent!!!")
 		except:
-			s.close()
-			print("[*] Error")
+			print(i +" Sent!!!")
+			pass
+			#s.close()
+			#print("[*] Error")
 
 for y in range(threads):
 	if choice == 'y':
